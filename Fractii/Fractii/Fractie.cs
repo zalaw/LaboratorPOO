@@ -47,9 +47,10 @@ namespace Fractii
         {
             int r_numarator, r_numitor;
 
+
             r_numitor = numitor * right.numitor;
             r_numarator = numarator * right.numitor + numitor * right.numarator;
-
+                
             return new Fractie(r_numarator, r_numitor);
         }
 
