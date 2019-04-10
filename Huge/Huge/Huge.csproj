@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{94DC5B03-8C36-4ED2-A6FE-DDD93C453680}</ProjectGuid>
+    <ProjectGuid>{40336853-5AD0-40EC-8721-5AE58C54AEC4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Number</RootNamespace>
-    <AssemblyName>Number</AssemblyName>
+    <RootNamespace>Huge</RootNamespace>
+    <AssemblyName>Huge</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Numar.cs" />
+    <Compile Include="HugeClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

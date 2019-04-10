@@ -11,6 +11,7 @@ namespace Number
         static void Main(string[] args)
         {
             Numar n = new Numar(1449);
+
             ulong baza = 16;
 
             Console.WriteLine("Suma cifrelor numarului {0} este {1}", n.Value, n.SumaCifre());

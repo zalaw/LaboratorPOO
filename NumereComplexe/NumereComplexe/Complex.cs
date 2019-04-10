@@ -86,6 +86,21 @@ namespace NumereComplexe
 
         }*/
 
+        public static Complex operator+(Complex left, Complex right)
+        {
+            Complex r = new Complex();
+
+            r.a = left.a + right.a;
+            r.b = left.b + right.b;
+
+            return r;
+        }
+
+        public override string ToString()
+        {
+            return "(" + a + ", " + b + ")";
+        }
+
         public int A
         {
             get
