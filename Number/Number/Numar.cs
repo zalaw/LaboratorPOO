@@ -34,7 +34,7 @@ namespace Number
             return suma;
         }
 
-        public bool EstePrim()
+        public bool IsPrime()
         {
             ulong d = 3;
 

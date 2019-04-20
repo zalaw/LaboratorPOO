@@ -47,10 +47,9 @@ namespace Fractii
         {
             int r_numarator, r_numitor;
 
-
             r_numitor = numitor * right.numitor;
             r_numarator = numarator * right.numitor + numitor * right.numarator;
-                
+            Console.Write("Performing addition of {0}/{1} + {2}/{3} = ", numarator, numitor, right.numarator, right.numitor);
             return new Fractie(r_numarator, r_numitor);
         }
 
@@ -60,7 +59,7 @@ namespace Fractii
 
             r_numitor = numitor * right.numitor;
             r_numarator = numarator * right.numitor - numitor * right.numarator;
-
+            Console.Write("Performing subtraction of {0}/{1} - {2}/{3} = ", numarator, numitor, right.numarator, right.numitor);
             return new Fractie(r_numarator, r_numitor);
         }
 
@@ -70,7 +69,7 @@ namespace Fractii
 
             r_numitor = numitor * right.numitor;
             r_numarator = numarator * right.numarator;
-
+            Console.Write("Performing multiplication of {0}/{1} * {2}/{3} = ", numarator, numitor, right.numarator, right.numitor);
             return new Fractie(r_numarator, r_numitor);
         }
 
@@ -80,13 +79,13 @@ namespace Fractii
 
             r_numitor = numitor * right.numarator;
             r_numarator = numarator * right.numitor;
-
+            Console.Write("Performing division of {0}/{1} / {2}/{3} = ", numarator, numitor, right.numarator, right.numitor);
             return new Fractie(r_numarator, r_numitor);
         }
 
         public void Print()
         {
-            Console.WriteLine(numarator + " / " + numitor);
+            Console.WriteLine(numarator + "/" + numitor);
         }
 
         public static int gcd(int a, int b)
